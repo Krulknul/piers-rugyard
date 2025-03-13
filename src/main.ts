@@ -32,7 +32,6 @@ import { adminCommand } from "./middleware";
  *****************************************************/
 const environmentVariables = new EnvironmentVariables();
 
-const MY_USER_ID = "6277298559"; // <— If you still need to reference a default user
 
 const PIERS_RUGYARD_MAINNET_COMPONENT =
     "component_rdx1cq86467tkaj0dsjavw2asjwugw5rggp3nf7hs3z30577xlj6nv22wr";
