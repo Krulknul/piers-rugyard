@@ -1,0 +1,9 @@
+services:
+  bot:
+    restart: always
+    network_mode: host
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/app/data:rw

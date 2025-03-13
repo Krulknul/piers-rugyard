@@ -82,7 +82,12 @@ function formatAccount(account: string, domain: string | null) {
     return "accou..." + account.slice(-10, -1);
 }
 
-const DATA_FILE_PATH = "gingers.json";
+const DATA_FILE_PATH = "./data/gingers.json";
+
+// create directory if it doesn't exist
+if (!fs.existsSync("./data")) {
+    fs.mkdirSync("./data");
+}
 
 function readSubscriptions(): Set<number> {
     try {
