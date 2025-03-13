@@ -1,0 +1,5 @@
+database.db
+dist
+node_modules
+.env
+gingers.json

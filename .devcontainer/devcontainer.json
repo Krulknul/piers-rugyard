@@ -1,0 +1,11 @@
+{
+    "name": "Bot only",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "JoshMu.periscope"
+            ]
+        }
+    }
+}

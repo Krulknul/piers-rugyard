@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "src/**"
+  ],
+  "ignore": [
+    "src/**/*.spec.ts"
+  ],
+  "ext": "ts",
+  "exec": "rollup -c && node dist/bundle.js"
+}
