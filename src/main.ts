@@ -44,7 +44,7 @@ const PIERS_RUGYARD_STOKENET_RESOURCE =
     "resource_tdx_2_1ntq7a805lxy0ehvxpyu9zm22psufd6duq9m9uk2zq6f8xssrhq52h0";
 
 const STOKENET_DASHBOARD_BASE_URL = "https://stokenet-dashboard.radixdlt.com";
-const MAINNET_DASHBOARD_BASE_URL = "https://dashboard.radixdlt.com";
+const MAINNET_DASHBOARD_BASE_URL = "https://www.radxplorer.com";
 
 /*****************************************************
  * Helper Functions
@@ -336,7 +336,7 @@ Make it yours at piersrugyard.com
 NEW BID! 💸
 
 <code>${formatNumberString(parsed.data.bid.amount)}</code> XRD for "${nft.name}"
-Bid by <a href="${DASHBOARD_URL}/account/${bidder}">${formatAccount(
+Bid by <a href="${DASHBOARD_URL}/accounts/${bidder}">${formatAccount(
                         bidder,
                         domain
                     )}</a>
